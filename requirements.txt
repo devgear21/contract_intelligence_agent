@@ -1,0 +1,41 @@
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+
+# LangSmith observability
+langsmith
+
+# Groq SDK
+groq
+
+# Streamlit UI
+streamlit
+
+# PDF and DOCX parsing
+PyMuPDF         # aka fitz
+pdfminer.six
+python-docx
+
+# Embeddings
+nomic           # For nomic-embed-text
+openai          # Optional fallback or comparison
+
+# PostgreSQL + pgvector
+pgvector
+psycopg2-binary
+
+# Web scraping
+beautifulsoup4
+requests
+
+# General utilities
+python-dotenv
+tqdm
+pydantic
+
+# Optional (Jupyter)
+notebook
+
+# LangGraph (multi-agent orchestration)
+langgraph
