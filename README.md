@@ -1,6 +1,6 @@
 # Contract Analysis System
 
-A sophisticated contract analysis system built with LangGraph and LangChain that automatically extracts, compares, and analyzes legal clauses from contracts.
+A contract analysis system built with LangGraph and LangChain that automatically extracts, compares, and analyzes legal clauses from contracts.
 
 ## Features
 
@@ -9,6 +9,10 @@ A sophisticated contract analysis system built with LangGraph and LangChain that
 - **Comparison Analysis**: Compares extracted clauses against standard templates
 - **Risk Assessment**: Evaluates legal risk levels (Low, Medium, High) for deviations
 - **Report Generation**: Creates comprehensive analysis reports
+
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/2ldUGQUZmN0/0.jpg)](https://youtu.be/2ldUGQUZmN0)
 
 ## Architecture
 
@@ -25,35 +29,6 @@ The system uses a LangGraph-based agent architecture with the following componen
 - **Clause Extraction**: LLaMA 3 70B via Groq
 - **Risk Analysis**: DeepSeek R1 Distill LLaMA 70B via Groq
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd contract-analysis-system
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up your Groq API key:
-```bash
-export GROQ_API_KEY="your-api-key-here"
-```
-
-## Usage
-
-Run the main application:
-```bash
-python main.py
-```
-
-Or use the Flask web interface:
-```bash
-python app.py
-```
 
 ## Project Structure
 
@@ -76,6 +51,3 @@ python app.py
 └── requirements.txt          # Python dependencies
 ```
 
-## License
-
-This project is licensed under the MIT License.
